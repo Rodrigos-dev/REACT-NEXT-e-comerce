@@ -19,12 +19,17 @@ O principal objetivo deste projeto é **demonstrar e exercitar conceitos fundame
 
 ---
 
+🌐 Deploy Online
+Você pode acessar a aplicação online aqui:
+🔗 https://next-react-ecommerce-context.vercel.app/
+
 ## 🚀 Tecnologias Utilizadas
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - Styled Components
+- Slide nas Imagens
 - Context 
 - LocalStorage
 
@@ -34,7 +39,8 @@ O principal objetivo deste projeto é **demonstrar e exercitar conceitos fundame
 
 - ✅ Listagem de produtos
 - ✅ Página de detalhes do produto
-- ✅ Carrinho via modal (em progresso)
+- ✅ Imagens miniatura para seleção
+- ✅ Carrinho via modal
 - ✅ Filtros por atributos
 - ✅ Armazenamento de produtos no carrinho (localStorage)
 - ✅ CRUD completo sobre os dados mockados
