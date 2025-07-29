@@ -93,15 +93,15 @@ Testes automatizados com Jest e React Testing Library
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/2a0a4098-ec33-4723-b358-bd464a0bab0d" width="50"/></td>
-    <td><img src="https://github.com/user-attachments/assets/8b79009c-cab6-4733-81c9-ef3c666093a8" width="50"/></td> 
-    <td><img src="https://github.com/user-attachments/assets/6f4a6875-31e0-4763-9b5f-9a3cb9a97d05" width="50"/></td>
-    <td><img src="https://github.com/user-attachments/assets/3bacb875-83c8-486f-b69f-c518a2c130fd" width="50"/></td>   
+    <td><img src="https://github.com/user-attachments/assets/2a0a4098-ec33-4723-b358-bd464a0bab0d" width="100"/></td>
+    <td><img src="https://github.com/user-attachments/assets/8b79009c-cab6-4733-81c9-ef3c666093a8" width="100"/></td> 
+    <td><img src="https://github.com/user-attachments/assets/6f4a6875-31e0-4763-9b5f-9a3cb9a97d05" width="100"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3bacb875-83c8-486f-b69f-c518a2c130fd" width="100"/></td>   
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/d659a244-ca86-4802-a70e-f5f6ff4cdfe8" width="50"/></td>
-    <td><img src="https://github.com/user-attachments/assets/e745c62b-607e-4972-b1f8-fb44029beda7" width="50"/></td>
-    <td><img src="https://github.com/user-attachments/assets/2e5a9bbd-889b-48a1-8a68-4d34cce9fe65" width="50"/></td>
-    <td><img src="https://github.com/user-attachments/assets/5d6f7d01-509e-4977-ab65-3888db1d3ed9" width="50"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d659a244-ca86-4802-a70e-f5f6ff4cdfe8" width="100"/></td>
+    <td><img src="https://github.com/user-attachments/assets/e745c62b-607e-4972-b1f8-fb44029beda7" width="100"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2e5a9bbd-889b-48a1-8a68-4d34cce9fe65" width="100"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5d6f7d01-509e-4977-ab65-3888db1d3ed9" width="100"/></td>
   </tr>  
 </table>
