@@ -1,6 +1,6 @@
 # 🛒 Next.js + React Store | Context API + Storage + Paginação
 
-Este é um projeto de **loja virtual** construído com **Next.js** e **React**, com foco educacional e técnico no uso de **Context API**, **Hooks**, **armazenamento local** (localStorage) e **diferentes técnicas de paginação**.
+Este é um projeto de **loja virtual** construído com **Next.js** e **React**, com foco educacional e técnico no uso de, **Responsividade**, **Context API**, **Hooks**, **armazenamento local** (localStorage) e **diferentes técnicas de paginação**.
 
 ---
 
