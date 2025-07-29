@@ -299,7 +299,10 @@ export function ProductInfoAddCart(props: ProductInfoAddCartProps) {
             subTotalWithDescount_in_cents: 0,
         });
 
-        const existingIndex = cart.productsCart.findIndex((item: any) => item.id === product.id);
+        // Garante que productsCart seja um array antes de usar findIndex
+        const productsCart = Array.isArray(cart.productsCart) ? cart.productsCart : [];
+
+        const existingIndex = productsCart.findIndex((item: any) => item.id === product.id);
 
         // Se o produto já está no carrinho
         if (existingIndex !== -1) {
