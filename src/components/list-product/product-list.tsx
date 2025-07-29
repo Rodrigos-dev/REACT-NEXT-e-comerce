@@ -14,7 +14,7 @@ import AdvancedPagination from "./products-pagination/pagination-withLib-advance
 import { SelectChangeEvent } from "@mui/material"
 import CustomPagination from "./products-pagination/pagination-withLib-tipo-ML"
 import InfiniteScroll from "./products-pagination/scroll-pagination-product"
-import { categorysFilter } from "@/hooks/products/use-categorys-context"
+import { useCategorysFilter } from "@/hooks/products/use-categorys-context"
 import InfiniteScrollComponent from "./products-pagination/scroll-pagination-product"
 
 interface ProductsListProps {
@@ -73,7 +73,7 @@ export function ProductList(props: ProductsListProps) {
 
     const { productList, setProductList, quantityTotalProduct, setQuantityTotalProduct } = useProductContext()
     const { getAllProducts } = ProductService();
-    const { categoryType, setCategoryType } = categorysFilter()
+    const { categoryType, setCategoryType } = useCategorysFilter()
     const {
         page,
         setPage,
