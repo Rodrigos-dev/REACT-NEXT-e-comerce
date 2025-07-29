@@ -180,7 +180,10 @@ export function CartMenuModal(props: CartModalProps) {
 
     return (
         purchaseStorage && purchaseStorage.productsCart && purchaseStorage.productsCart.length === 0 ? (
-            <MenuContainerCartWithoutItems><CartWithoutProduct/></MenuContainerCartWithoutItems>            
+            <MenuContainerCartWithoutItems>
+                <CartWithoutProduct/>
+                <ButtonAddMoreProducts onClick={() => props.onCloseModal()}><div>Escolher Produtos</div></ButtonAddMoreProducts>
+            </MenuContainerCartWithoutItems>            
         ) : (
             <MenuContainer>
                 <h1>{`Itens no Carrinho (${purchaseStorage && purchaseStorage.productsCart && purchaseStorage.productsCart.length > 0 ? purchaseStorage.productsCart.length : 0})`}</h1>
