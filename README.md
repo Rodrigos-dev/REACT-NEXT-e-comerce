@@ -24,8 +24,8 @@ O principal objetivo deste projeto é **demonstrar e exercitar conceitos fundame
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- Context API
+- Styled Components
+- Context 
 - LocalStorage
 
 ---
