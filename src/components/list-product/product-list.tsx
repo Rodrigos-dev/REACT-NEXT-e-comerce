@@ -90,14 +90,9 @@ export function ProductList(props: ProductsListProps) {
     };
 
     useEffect(() => {
-        if (primeiroRender.current) {
-            primeiroRender.current = false;
-            return;
-        }
-
-        getAllProducts()                  
-
-    }, [categoryType]);
+        if (categoryType === undefined) return;
+        getAllProducts()
+    }, [categoryType])
 
     useEffect(() => {
         if (!scroll) {            
@@ -138,10 +133,13 @@ export function ProductList(props: ProductsListProps) {
     return (
         <Container>
             <ListContainer>
-                {productList?.map((product: any) => <ProductCard
-                    key={product.id}
-                    product={product}
-                />)}
+                {productList?.length === 0 ? (
+                    <p style={{ color: "#fff" }}>Nenhum produto encontrado</p>
+                ) : (
+                    productList?.map((product: any) => (
+                        <ProductCard key={product.id} product={product} />
+                    ))
+                )}
             </ListContainer>
 
             {/* <PaginationNoLibProduct
