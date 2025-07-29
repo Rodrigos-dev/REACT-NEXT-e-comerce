@@ -12,7 +12,7 @@ import NumericPagination from "./products-pagination/pagination-withLib-users-nu
 import SimplePagination from "./products-pagination/pagination-withLib-simple-product"
 import AdvancedPagination from "./products-pagination/pagination-withLib-advanced-products"
 import { SelectChangeEvent } from "@mui/material"
-import CustomPagination from "./products-pagination/pagination-withLib-tipo-MercadoLivre"
+import CustomPagination from "./products-pagination/pagination-withLib-tipo-ML"
 import InfiniteScroll from "./products-pagination/scroll-pagination-product"
 import { categorysFilter } from "@/hooks/products/use-categorys-context"
 import InfiniteScrollComponent from "./products-pagination/scroll-pagination-product"
