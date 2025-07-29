@@ -1,38 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Next.js + React Store | Context API + Storage + Paginação
 
-REACT, NEXT, STYLED COMPONENTS e-comerce(loja) criada com next js e styled components
+Este é um projeto de **loja virtual** construído com **Next.js** e **React**, com foco educacional e técnico no uso de **Context API**, **Hooks**, **armazenamento local** (localStorage) e **diferentes técnicas de paginação**.
 
-## Getting Started
+---
 
-First, run the development server:
+## 🎯 Objetivo do Projeto
 
-```bash
+O principal objetivo deste projeto é **demonstrar e exercitar conceitos fundamentais** do React moderno, como:
+
+- Gerenciamento global de estado com **Context API**
+- Operações CRUD completas usando **localStorage**
+- **7 tipos diferentes de paginação**
+- Uso de **dados mockados** para simulação real de produtos
+- Implementação de filtros, manipulação de carrinho e modal
+- Estrutura de e-commerce com página de listagem e detalhes de produtos
+
+> ⚠️ **Atenção:** o código não está focado em elegância ou arquitetura final. O foco principal está nos **conceitos de contexto, armazenamento e paginação.**
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Context API
+- LocalStorage
+
+---
+
+## 📦 Funcionalidades
+
+- ✅ Listagem de produtos
+- ✅ Página de detalhes do produto
+- ✅ Carrinho via modal (em progresso)
+- ✅ Filtros por atributos
+- ✅ Armazenamento de produtos no carrinho (localStorage)
+- ✅ CRUD completo sobre os dados mockados
+- ✅ Suporte a **7 tipos de paginação**
+
+---
+
+## 🔁 Paginação
+
+O projeto demonstra **7 formas diferentes de implementar paginação**, incluindo:
+
+- Paginação por botões (tradicional)
+- Paginação por setas
+- Scroll infinito (infinite scroll) ✅
+- Cursor-based
+- Load More
+- Server-side (mocked)
+- Page size customizado
+
+> 💡 Atualmente, está habilitado o **scroll infinito**.  
+> Para alterar o tipo de paginação, basta editar o arquivo:
+
+src/app/products-pagination/page.tsx
+
+Descomente o tipo desejado e comente o atual.
+
+---
+
+## 🛠️ Como executar
+
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔧 Melhorias Futuras
+Página completa de carrinho de compras 🛒
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Tela de cadastro e login 🔐
 
-## Learn More
+Integração com backend real
 
-To learn more about Next.js, take a look at the following resources:
+Melhorias na arquitetura de código e estilos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Testes automatizados com Jest e React Testing Library
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📌
