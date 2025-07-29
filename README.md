@@ -86,4 +86,22 @@ Melhorias na arquitetura de código e estilos
 
 Testes automatizados com Jest e React Testing Library
 
-📌
+
+## Screenshots
+
+<h3 align="center">📸 Screenshots</h3>
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/2a0a4098-ec33-4723-b358-bd464a0bab0d" width="50"/></td>
+    <td><img src="https://github.com/user-attachments/assets/8b79009c-cab6-4733-81c9-ef3c666093a8" width="50"/></td> 
+    <td><img src="https://github.com/user-attachments/assets/3dd3930c-df4d-44bf-8053-02a9186078c1" width="50"/></td>
+    <td><img src="https://github.com/user-attachments/assets/70e66986-b85c-41c4-9080-5cb5659d8429" width="50"/></td>    
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d659a244-ca86-4802-a70e-f5f6ff4cdfe8" width="50"/></td>
+    <td><img src="https://github.com/user-attachments/assets/e745c62b-607e-4972-b1f8-fb44029beda7" width="50"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2e5a9bbd-889b-48a1-8a68-4d34cce9fe65" width="50"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5d6f7d01-509e-4977-ab65-3888db1d3ed9" width="50"/></td>
+  </tr>  
+</table>
