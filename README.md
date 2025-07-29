@@ -95,8 +95,8 @@ Testes automatizados com Jest e React Testing Library
   <tr>
     <td><img src="https://github.com/user-attachments/assets/2a0a4098-ec33-4723-b358-bd464a0bab0d" width="50"/></td>
     <td><img src="https://github.com/user-attachments/assets/8b79009c-cab6-4733-81c9-ef3c666093a8" width="50"/></td> 
-    <td><img src="https://github.com/user-attachments/assets/3dd3930c-df4d-44bf-8053-02a9186078c1" width="50"/></td>
-    <td><img src="https://github.com/user-attachments/assets/70e66986-b85c-41c4-9080-5cb5659d8429" width="50"/></td>    
+    <td><img src="https://github.com/user-attachments/assets/6f4a6875-31e0-4763-9b5f-9a3cb9a97d05" width="50"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3bacb875-83c8-486f-b69f-c518a2c130fd" width="50"/></td>   
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/d659a244-ca86-4802-a70e-f5f6ff4cdfe8" width="50"/></td>
